@@ -1,0 +1,99 @@
+table{
+    margin: 0 auto;
+    width: 80%
+    
+}
+
+
+.foto td img{
+align-items: center;
+width: 100%;
+text-align: center;
+border-radius: 100%;
+padding: 10px;
+
+}
+ th h1{
+    font-size: 4rem;
+    align-items: center;    
+    color: red;
+    
+    
+    }
+    th p{
+        font-size:20px;
+        align-items: center;          
+        
+        }
+       
+.foto th{ /*foto das logos sociais */  
+    width: 80%;
+    text-align: center;
+    align-items: baseline;
+}
+.foto td{
+    width: 25%;
+    border: 1px solid;
+    text-align: center;
+    background-color: black;
+
+}
+ .foto a img{
+    width: 10%;
+    margin: 0 8%;
+    margin-bottom: 10px;
+    border-radius: 50%;
+
+   
+}
+table .dados td{
+    background-color: gray;
+}
+body .table{
+    width: 80%;
+}
+footer {
+    width: 70%;
+    margin: 0 auto;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+
+}
+
+@media screen and (max-width:700px) {
+    table body .table{        
+        width: 100%
+        
+    }
+    tr th{
+        background-color:antiquewhite;
+  
+        width: 50%;     
+        
+    }
+    footer a{
+        width: 77%;
+        margin: 0 auto;
+       align-items: center;  
+      
+    
+    }th h1{
+        font-size:24px;
+        align-items: center;    
+        color: red;       
+        
+        }
+        th p{
+            font-size: 15px;
+            align-items: center;          
+            
+            }
+            .foto td{ /*foto do candidato */  
+                width: 30%;
+                text-align: center;
+                align-items: baseline;
+                background-color: black;
+            }
+    
+}
