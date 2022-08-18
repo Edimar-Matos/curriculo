@@ -2,6 +2,7 @@ table{
     margin: 0 auto;
     width: 80%
     
+    
 }
 
 
@@ -14,7 +15,7 @@ padding: 10px;
 
 }
  th h1{
-    font-size: 4rem;
+    font-size: 60px;
     align-items: center;    
     color: red;
     
@@ -46,8 +47,10 @@ padding: 10px;
 
    
 }
-table .dados td{
-    background-color: gray;
+.table1 tr td{
+    background-color: rgb(128, 128, 128);
+    color: white;
+    text-align: center;
 }
 body .table{
     width: 80%;
@@ -60,8 +63,14 @@ footer {
     padding: 10px;
 
 }
+tr th{
+    background-color:antiquewhite;
 
-@media screen and (max-width:700px) {
+   
+    
+}
+
+@media screen and (max-width:800px) {
     table body .table{        
         width: 100%
         
@@ -69,10 +78,10 @@ footer {
     tr th{
         background-color:antiquewhite;
   
-        width: 50%;     
+        width: 10%;     
         
     }
-    footer a{
+    footer{
         width: 77%;
         margin: 0 auto;
        align-items: center;  
@@ -85,7 +94,7 @@ footer {
         
         }
         th p{
-            font-size: 15px;
+            font-size: 10px;
             align-items: center;          
             
             }
@@ -94,6 +103,12 @@ footer {
                 text-align: center;
                 align-items: baseline;
                 background-color: black;
+            }
+            .table1 tr td{
+                background-color: rgb(128, 128, 128);
+                color: white;
+                font-size:x-small;
+                text-align: center;
             }
     
 }
