@@ -1,5 +1,5 @@
 table{
-    margin: 0 auto;
+    margin: auto;
     width: 80%
     
     
@@ -54,13 +54,17 @@ padding: 10px;
 }
 body .table{
     width: 80%;
+   
 }
 footer {
     width: 70%;
-    margin: 0 auto;
+   padding-top: 10px;
+   padding-bottom: 10px;
     background-color: blue;
     color: white;
-    padding: 10px;
+    margin: 0 auto;
+   
+   
 
 }
 tr th{
@@ -71,8 +75,17 @@ tr th{
 }
 
 @media screen and (max-width:800px) {
+  
+    
+    body .container{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+
+    }
     table body .table{        
-        width: 100%
+        width: 100%;
         
     }
     tr th{
@@ -82,19 +95,20 @@ tr th{
         
     }
     footer{
-        width: 77%;
+        width: 80%;
         margin: 0 auto;
-       align-items: center;  
+       
+   
       
     
     }th h1{
-        font-size:24px;
+        font-size:20px;
         align-items: center;    
         color: red;       
         
         }
         th p{
-            font-size: 10px;
+            font-size: 8px;
             align-items: center;          
             
             }
@@ -107,7 +121,7 @@ tr th{
             .table1 tr td{
                 background-color: rgb(128, 128, 128);
                 color: white;
-                font-size:x-small;
+                font-size:xx-small;
                 text-align: center;
             }
     
